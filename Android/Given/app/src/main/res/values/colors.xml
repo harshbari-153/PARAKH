@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#415A77</color> <!-- Base Dark Blue -->
+    <color name="colorPrimaryDark">#1E2A3A</color> <!-- Darker Blue for status bar -->
+    <color name="colorAccent">#D4E1F2</color> <!-- Light Accent Color -->
+    <color name="colorBackground">#121212</color> <!-- Dark background -->
+    <color name="colorTextPrimary">#FFFFFF</color> <!-- White text for dark theme -->
+    <color name="colorTextSecondary">#B0B0B0</color> <!-- Light gray text -->
+    <color name="colorRipple">#B0B0B0</color> <!-- Ripple effect color -->
+</resources>

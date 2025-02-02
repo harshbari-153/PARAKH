@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/image"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- College Name -->
+            <TextView
+                android:id="@+id/collegeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College Name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <!-- College City -->
+            <TextView
+                android:id="@+id/collegeCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College City"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Latent Numbers -->
+            <TextView
+                android:id="@+id/latentNumbers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latent Numbers"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Short Description -->
+            <TextView
+                android:id="@+id/shortDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Short Description"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Positive Summarization (Green Background) -->
+            <TextView
+                android:id="@+id/positiveSummarization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Positive Summarization"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:background="@android:color/holo_green_light"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Negative Summarization (Red Background) -->
+            <TextView
+                android:id="@+id/negativeSummarization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Negative Summarization"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:background="@android:color/holo_red_light"
+                android:padding="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Review ListView (Zero Entries) -->
+            <TextView
+                android:id="@+id/comment"
+                android:text="Comments"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <!-- Summarization Score -->
+            <ListView
+                android:id="@+id/reviewListView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="8dp"
+                android:divider="@android:color/darker_gray"
+                />
+
+            <TextView
+                android:id="@+id/summarizationScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Summarization Score: 85"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Add Review Button -->
+            <Button
+                android:id="@+id/addReviewButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Review"
+                android:textSize="16sp"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:id="@+id/addReview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="go to test"
+                android:textSize="16sp"
+                android:layout_alignParentEnd="true" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

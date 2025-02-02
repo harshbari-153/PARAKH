@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Write Review TextInputLayout -->
+           <EditText
+               android:id="@+id/writeReviewEdit"
+               android:layout_width="match_parent"
+               android:inputType="textMultiLine"
+               android:layout_height="wrap_content"/>
+
+
+            <!-- Generate Score Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/generateScoreButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/writeReviewEdit"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="Generate Score" />
+
+            <!-- Score TextView -->
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/generateScoreButton"
+                android:layout_marginTop="16dp"
+                android:text="Score"
+                android:textSize="16sp"
+                />
+
+            <!-- Post Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/postButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scoreTextView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="Post" />
+
+            <!-- New TextView below the Post Button -->
+            <TextView
+                android:id="@+id/extraTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/postButton"
+                android:layout_marginTop="16dp"
+                android:text="Additional information or feedback"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

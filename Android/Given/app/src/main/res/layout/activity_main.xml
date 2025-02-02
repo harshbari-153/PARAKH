@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp" > <!-- Added padding for overall spacing -->
+
+    <!-- Welcome Text at the top of the CardView -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Parakh"
+        android:textSize="40sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="20dp" /> <!-- Added margin below the text -->
+
+    <!-- CardView to hold buttons and ListView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeText"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="80dp"
+    android:backgroundTint="@android:color/white"
+    android:padding="16dp">
+
+    <!-- RelativeLayout inside the CardView -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="16dp" /> <!-- Spacing between buttons -->
+
+        <!-- Profile Button -->
+        <Button
+            android:id="@+id/MyProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:layout_below="@id/loginbutton"
+            android:layout_marginBottom="16dp" /> <!-- Spacing between buttons -->
+
+        <!-- ListView below Profile Button -->
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/MyProfile"
+            android:layout_marginBottom="16dp" /> <!-- Spacing before Add College button -->
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+
+    <!-- Add College Button outside the CardView -->
+<Button
+android:id="@+id/AddCollege"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:text="Add College"
+android:layout_below="@id/cardView"
+android:layout_marginTop="20dp" /> <!-- Spacing below the CardView -->
+
+    </RelativeLayout>
