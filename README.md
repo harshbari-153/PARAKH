@@ -1,4 +1,4 @@
-# Parakh - Verifiable College Review Platform
+# Parakh - Unambigious College Review Platform
 
 ## Introduction
 In many college review websites, exaggerated and ambiguous reviews mislead students into making incorrect decisions. Colleges often post generic statements such as _"Our college ranks high in research and development,"_ which are neither completely true nor completely false. This results in unaccountable and unverifiable reviews.
@@ -49,7 +49,7 @@ This project, **Parakh**, was created during the **Dotslash 8.0** hackathon at S
 #### Clone the Repository:
 ```sh
  git clone https://github.com/harshbari-153/PARAKH.git
- cd your-repository
+ cd PARAKH
 ```
 #### Install Dependencies (for Web Application):
 ```sh
