@@ -5,6 +5,8 @@ In many college review websites, exaggerated and ambiguous reviews mislead stude
 
 Our platform aims to ensure that reviews are clear, justified, and accountable. For example, instead of vague claims, we expect concrete statements like _"Our college has published 100 research papers in the last year,"_ which are verifiable and fact-based.
 
+<a href="https://youtu.be/M7bCrkPdl_g?si=wrP2x_tZ8RRD9vpX" target="_blank"><img src="https://img.shields.io/badge/Watch_the_Demo-informational?style=for-the-badge&logo=youtube&color=FF0000" alt="Project Demo Video"/></a>
+
 ## Problem Statement
 Many review platforms allow colleges and other organizations to post exaggerated or misleading claims without any accountability. This misguides students and other users while the institutions remain unaffected.
 
